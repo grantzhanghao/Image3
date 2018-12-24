@@ -1,1 +1,1 @@
-# ImageAPI
+# Django ImageAPI
