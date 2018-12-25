@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def draw_mock_graph():
     '''draw the toe energy per meter graph.
     '''
-    plt.plot([1, 2, 3, 4, 5, 6, 7], [1, 4, 9, 16, 18, 19, 19], 'ro')
+    plt.plot([1, 2, 3, 4, 5, 6, 7, 8], [1, 4, 9, 16, 18, 19, 19, 18], 'ro')
     plt.axis([0, 10, 0, 20 ])    
     canvas = pylab.get_current_fig_manager().canvas
     canvas.draw()
